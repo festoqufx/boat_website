@@ -6,7 +6,7 @@ function MapImages() {
   return (
     <div className="absolute w-full flex justify-between transform -translate-y-200px -z-1 overflow-hidden">
       <motion.img
-        src="./map_1.png"
+        src="https://fluffy-tarsier-407be1.netlify.app/map_1.png"
         initial={{ x: -100, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{
@@ -17,7 +17,7 @@ function MapImages() {
         className="object-cover"
       />
       <motion.img
-        src="./map_2.png"
+        src="https://fluffy-tarsier-407be1.netlify.app/map_2.png"
         initial={{ x: 100, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{
